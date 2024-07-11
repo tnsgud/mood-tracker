@@ -1,7 +1,7 @@
 import 'package:go_router/go_router.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:mood_tracker/features/authentication/view/sign_up_screen.dart';
-import 'package:mood_tracker/feeds/view/feeds_screen.dart';
+import 'package:mood_tracker/features/feeds/view/feeds_screen.dart';
 import 'package:mood_tracker/features/authentication/view/login_screen.dart';
 import 'package:mood_tracker/features/main_navigation/view/main_navigation_screen.dart';
 
