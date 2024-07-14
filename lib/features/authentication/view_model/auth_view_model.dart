@@ -115,6 +115,4 @@ class AuthViewModel extends Notifier<User?> {
   }
 }
 
-final authProvider = NotifierProvider<AuthViewModel, User?>(
-  () => AuthViewModel(),
-);
+final authProvider = NotifierProvider<AuthViewModel, User?>(AuthViewModel.new);
